@@ -23,19 +23,19 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('')
-    .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Recording')
-    .setName('')
-    .setDetails(`Valorant [${formatTime()}]`)
+    .setApplicationId('1203398104716673076')
+    .setType('playing')
+    .setURL('https://www.youtube.com/live/vsmEjs5eyb0?si=L7CTz5OjXwf4BqjQ') //Must be a youtube video link 
+    .setState('♡')
+    .setName('᧔⠀♡⠀᧓')
+    .setDetails(`੭୧ ㅤׂ  𓈒⠀⠀✧ [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Boring') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Twitch') //Text when you hover the Small image
-    .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-    .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+ .setAssetsLargeImage('https://64.media.tumblr.com/5f89a1737d43d98e0921b1b22b444f64/914f12612fb95f07-74/s400x600/22fd83c003518e4b3056f8bfe75cb331fce52a26.pnj') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('(𓏼´Д`)') //Text when you hover the Large image
+    .setAssetsSmallImage('https://64.media.tumblr.com/cadd443541d0a2f6fe6768033a3381c2/914f12612fb95f07-48/s250x400/1441fa03e6046ce7cbb3007da4bb8edeb1857152.pnj') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('promise') //Text when you hover the Small image
+    .addButton('ೀ', 'https://rentry.co/mizubear')
+    .addButton('𝜚۪ ﾟ', 'https://en.pronouns.page/@mafudollie');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
