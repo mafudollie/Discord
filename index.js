@@ -24,7 +24,7 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1203398104716673076')
-    .setType('playing')
+    .setType('STREAMING')
     .setURL('https://discord.gg/bsGveyX2rD') //Must be a youtube video link 
     .setState('♡')
     .setName('᧔⠀♡⠀᧓')
